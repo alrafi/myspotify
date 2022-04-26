@@ -41,7 +41,7 @@ const Center = () => {
   console.log('detail: ', playlist)
 
   return (
-    <div className="flex-grow text-white bg-[#121212] overflow-y-scroll h-screen scrollbar-hide">
+    <div className="flex-grow text-white bg-[#121212] overflow-y-auto h-screen ">
       <header className="absolute top-5 right-8">
         <div className="flex items-center bg-black space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2">
           <img src="https://randomuser.me/api/portraits/men/86.jpg" className="rounded-full w-10 h-10" alt="" />

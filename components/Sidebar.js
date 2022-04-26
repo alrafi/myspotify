@@ -25,7 +25,7 @@ const Sidebar = () => {
   console.log(playlists)
 
   return (
-    <div className="bg-black p-5 text-gray-400 border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide hidden md:inline-block text-xs lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem]">
+    <div className="bg-black p-5 text-gray-400 border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide hidden md:inline-block text-xs lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] pb-28">
       <div className="">
         <div className="space-y-4">
           <button className="flex items-center space-x-4 hover:text-white transition duration-300">
